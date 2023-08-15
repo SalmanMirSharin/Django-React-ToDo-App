@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(36, 87, 70);
+}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* LIst: */
+
+.todo-list{
+  margin-top: 3rem;
+  background-color: beige;
+  padding: 0.5rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+}
+
+.todo-list input{
+  width: 1rem;
+  margin-left: 0.2rem;
+}
+
+.todo-list-item{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+}
+
+.task p{
+    margin-left: 0.5rem;
+    padding:0.7rem 0;
+    font-size: 1.2rem;
+}
+
+.btn-container{
+  display: flex; 
+ 
+}
+
+.edit{
+  margin-right: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgb(223, 223, 188);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-top:0.2rem;
+}
+
+.del{
+  margin-right: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgb(223, 223, 188);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-top:0.2rem;
+}
+
+
+
+
+/* Search: */
+
+.todo-search{
+  margin-top: 8rem;
+  padding: 0.5rem;
+  width: 25rem;
+  background-color: beige;
+  border-radius: 0.5rem;
+}
+
+.todo-search input{
+  width: 19rem;
+  margin: auto;
+  padding: 0.7rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  outline:none;
+  border: none;
+}
+
+.todo-search button{
+  background-color: rgb(161, 193, 15);
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  margin-left: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  
+}
+
+
+/* Filter: */
+
+.todo-filter{
+  margin-top: 2rem;
+  background-color: beige;
+  padding: 0.5rem;
+  width: 25rem;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.todo-filter option{
+  font-size: 1rem;
+
+}
